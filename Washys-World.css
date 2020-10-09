@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+body{
+    background-image: url('Washysworlds2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+ul {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:  transparent;
+    font-family: "Amatic+SC" ;
+    text-decoration: none;
+}
+
+
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link, li, a {
+    display: inline-block;
+    padding: 0px 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-decoration: none;
+    border-right: 2px solid black;
+    text-transform: uppercase;
+
+}
+
+.nav_link, li, a:last-child {
+border-right: none;
+}
+
+/* .nav_link:hover {
+    color: blueviolet;
+} */
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(32, 157, 207, 0.582);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+nav {
+    background-color: transparent;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+   
+
+}
